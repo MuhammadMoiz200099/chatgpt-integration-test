@@ -24,6 +24,7 @@ const Input = () => {
                 msg: text
             }
         }))
+        setText('')
     }
 
     return (

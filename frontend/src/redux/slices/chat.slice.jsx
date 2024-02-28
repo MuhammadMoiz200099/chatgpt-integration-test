@@ -4,7 +4,7 @@ import { toast } from "react-toastify";
 
 const initialState = {
   status: "idle",
-  chat: null,
+  chat: [],
 };
 
 export const askGPT = createAsyncThunk("chats/askGPT", ({ data }, thunkAPI) => {
